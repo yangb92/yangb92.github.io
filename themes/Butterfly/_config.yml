@@ -300,8 +300,8 @@ related_post:
 # 主頁設置
 # 默認top_img全屏，site_info在中間
 # 使用默認, 都無需填寫（建議默認）
-index_site_info_top: 40% #主頁標題距離頂部距離  例如 300px/300em/300rem/10%
-index_top_img_height: 400px #主頁top_img高度 例如 300px/300em/300rem  不能使用百分比
+index_site_info_top:  #主頁標題距離頂部距離  例如 300px/300em/300rem/10%
+index_top_img_height:  #主頁top_img高度 例如 300px/300em/300rem  不能使用百分比
 
 # category和tag頁的UI設置
 # index 值代表 UI將與首頁的UI一樣
