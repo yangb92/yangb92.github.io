@@ -106,7 +106,8 @@ baidu_analytics: e81efee4d6195c2376a7bd16aa5d34a3
 avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
 
 # the banner image of index
-top_img: https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
+top_img: https://api.dujin.org/bing/1366.php
+# https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
 # 以下鏈接是動態壁紙，每次刷新會更換
 # https://source.unsplash.com/collection/collectionid/1600x900
 # https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
@@ -384,7 +385,7 @@ avatar_effect: false
 # 網站顯示模式
 # light 默認模式
 # dark 黑暗模式（不建議）
-display_mode: light
+display_mode: dark
 
 # 美化post頁顯示
 post_beautify:
@@ -512,7 +513,7 @@ snackbar:
 
 #百度推送
 baidu_push:
-  enable: false
+  enable: true
 
 # https://instant.page/
 # prefetch預加載
