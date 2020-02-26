@@ -97,7 +97,7 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@gitee.com:yangb92/yangb92.git
+  repo: https://gitee.com/yangb92/yangb92.git
   message: hexo auto commit
   branch: master
 
