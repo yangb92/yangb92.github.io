@@ -3,6 +3,8 @@ title: 版本号规则
 tags: 
 - 软件开发 
 - git
+categories:
+- 技术分享
 top_img: /img/hexo_b01.png
 cover: /img/hexo_01.png
 ---

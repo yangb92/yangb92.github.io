@@ -3,6 +3,10 @@ title: 免费创建属于自己的博客
 tags: 
 - 工具 
 - git
+
+categories:
+- 技术分享
+
 top_img: /img/hexo_b01.png
 cover: /img/hexo_01.png
 ---

@@ -1,5 +1,8 @@
 ---
 title: Hello 你好.
+
+categories:
+- 情感天地
 ---
 
 今天开始打算写一点博客, 欢迎follow我的[github](https://github.com/yangb92), 我的[学习笔记](http://yangb92.gitee.io/book/)
