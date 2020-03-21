@@ -1,5 +1,5 @@
 ---
-title: 版本号规则
+title: 软件版本号规则
 tags: 
 - 软件开发 
 - git

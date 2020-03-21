@@ -1,5 +1,5 @@
 ---
-title: 免费创建属于自己的博客
+title: Hexo 框架介绍
 tags: 
 - 工具 
 - git

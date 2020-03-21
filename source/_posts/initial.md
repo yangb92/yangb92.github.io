@@ -5,7 +5,7 @@ categories:
 - 情感天地
 ---
 
-今天开始打算写一点博客, 欢迎follow我的[github](https://github.com/yangb92), 我的[学习笔记](http://yangb92.gitee.io/book/)
+欢迎follow我的[github](https://github.com/yangb92), [知识库](http://yangb92.gitee.io/book/)
 
 > 希望你该坚持主见的时候，坚持主见，该沉默的时候，学会沉默，宁愿卑微如灰尘,不可扭曲成蛆虫。
 
