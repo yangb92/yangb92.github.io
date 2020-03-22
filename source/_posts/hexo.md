@@ -6,7 +6,7 @@ tags:
 
 categories:
 - 技术分享
-
+date: 2019-11-01
 top_img: /img/hexo_b01.png
 cover: /img/hexo_01.png
 ---
@@ -31,3 +31,6 @@ cover: /img/hexo_01.png
 
 hexo中可配可不配， 因为我在配置域名 forward mode 是 Fname ，没有配置也可以。
 如果要配置，在 source/CNAME 第一行写域名即可。
+
+### 免费图库
+https://www.pexels.com/zh-cn/

@@ -5,6 +5,7 @@ tags:
 - git
 categories:
 - 技术分享
+date: 2020-01-12
 top_img: /img/hexo_b01.png
 cover: /img/hexo_01.png
 ---
