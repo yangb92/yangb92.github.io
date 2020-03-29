@@ -1,8 +1,7 @@
 ---
 title: 软件版本号规则
 tags: 
-- 软件开发 
-- git
+- 软件开发
 categories:
 - 技术分享
 date: 2020-01-12

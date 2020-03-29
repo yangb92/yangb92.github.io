@@ -2,7 +2,7 @@
 title: Hello 你好.
 
 categories:
-- 情感天地
+- 杂谈
 date: 2019-10-10
 ---
 

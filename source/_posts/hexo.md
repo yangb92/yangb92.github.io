@@ -1,8 +1,7 @@
 ---
 title: Hexo 框架介绍
 tags: 
-- 工具 
-- git
+- 前端
 
 categories:
 - 技术分享
