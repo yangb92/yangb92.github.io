@@ -14,7 +14,7 @@ cover: /img/hexo_01.png
 
 如何建站请参考[官方中文文档](https://hexo.io/zh-cn/docs/index.html)
 
-更多资源整理 [点击这里](https://yangb92.gitee.io/book/Tool/hexo.html)
+更多资源整理 [点击这里](https://yangb.xyz/book/Tool/hexo.html)
 
 ## 申请属于自己的免费域名
 
