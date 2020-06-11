@@ -3,7 +3,7 @@ title: 微信语音/视频通话定位
 tags: 
 - 漏洞
 categories:
-- 技术分享
+- 网络安全
 top_img: https://images.pexels.com/photos/892769/pexels-photo-892769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=500
 cover: https://images.pexels.com/photos/892769/pexels-photo-892769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=200&w=300
 date: 2020-03-21

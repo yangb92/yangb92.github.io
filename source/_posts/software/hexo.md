@@ -4,7 +4,7 @@ tags:
 - 前端
 
 categories:
-- 技术分享
+- 软件开发
 date: 2019-11-01
 top_img: /img/hexo_b01.png
 cover: /img/hexo_01.png

@@ -381,7 +381,7 @@ ClickShowText:
   fontSize: 15px
 
 # 頭像會一直轉圈
-avatar_effect: false
+avatar_effect: true
 
 # 網站顯示模式
 # light 默認模式
@@ -426,8 +426,8 @@ subtitle:
   source: false
   # (如果有英文逗號' , '，請使用轉義字符 &#44;)
   sub:
-    - 企者不立	跨者不行	自见者不明	自伐者无功	自矜者不长	其在道也	曰余食赘行	物或恶之
-    - 斌的博客
+    - 天之道 利而不害 人之道 为而不争
+    - 自 知 不 自 见  自 爱 不 自 贵 。
 
 
 ####    側邊欄    ####

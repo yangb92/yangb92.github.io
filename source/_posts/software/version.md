@@ -1,9 +1,9 @@
 ---
 title: 软件版本号规则
 tags: 
-- 软件开发
+- 开发规范
 categories:
-- 技术分享
+- 软件开发
 date: 2020-01-12
 top_img: /img/hexo_b01.png
 cover: /img/hexo_01.png
