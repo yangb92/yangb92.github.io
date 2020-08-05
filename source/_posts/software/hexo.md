@@ -8,6 +8,7 @@ categories:
 date: 2019-11-01
 top_img: /img/hexo_b01.png
 cover: /img/hexo_01.png
+id: hexo
 ---
 
 教大家如何使用hexo+gitee搭建自己的免费博客。
