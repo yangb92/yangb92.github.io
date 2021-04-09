@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yangb.xyz
+url: https://yangb92.github.io/
 root: /
 permalink: :year/:month/:day/:id/
 permalink_defaults:
@@ -98,7 +98,7 @@ theme: Butterfly
 deploy:
   type: git
   # repo: https://gitee.com/yangb92/yangb92.git
-  repo: git@github.com:yangb92/yangb92.github.io.git
+  repo: https://github.com/yangb92/yangb92.github.io.git
   message: hexo auto commit
-  branch: master
+  branch: html
 
