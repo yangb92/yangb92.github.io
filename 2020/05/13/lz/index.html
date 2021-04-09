@@ -1,0 +1,386 @@
+<!DOCTYPE html><html lang="zh_cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>老子笔记 | 无名</title><meta name="description" content="老子笔记"><meta name="keywords" content="读书,道德经"><meta name="author" content="杨斌"><meta name="copyright" content="杨斌"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="preconnect" href="//cdn.jsdelivr.net"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="老子笔记"><meta name="twitter:description" content="老子笔记"><meta name="twitter:image" content="https://images.pexels.com/photos/1586205/pexels-photo-1586205.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=250"><meta property="og:type" content="article"><meta property="og:title" content="老子笔记"><meta property="og:url" content="https://yangb92.github.io/2020/05/13/lz/"><meta property="og:site_name" content="无名"><meta property="og:description" content="老子笔记"><meta property="og:image" content="https://images.pexels.com/photos/1586205/pexels-photo-1586205.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=250"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = 'false'
+var t = Cookies.get("theme");
+if (autoChangeMode == '1'){
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+if (t === undefined){
+  if (isLightMode) activateLightMode()
+  else if (isDarkMode) activateDarkMode()
+  else if (isNotSpecified || hasNoSupport){
+    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+    now = new Date();
+    hour = now.getHours();
+    isNight = hour < 6 || hour >= 18
+    isNight ? activateDarkMode() : activateLightMode()
+}
+} else if (t == 'light') activateLightMode()
+else activateDarkMode()
+
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="https://yangb92.github.io/2020/05/13/lz/"><link rel="prev" title="老子解-憨山大师" href="https://yangb92.github.io/2020/06/11/lz-hs/"><link rel="next" title="知乎好句摘录" href="https://yangb92.github.io/2020/04/27/zhhw/"><link rel="dns-prefetch" href="https://hm.baidu.com"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e81efee4d6195c2376a7bd16aa5d34a3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://yangb.xyz/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  highlight_copy: 'false',
+  highlight_lang: 'true',
+  highlight_shrink: 'false',
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  copyright: undefined,
+  copy_copyright_js: false,
+  ClickShowText: undefined,
+  medium_zoom: 'false',
+  Snackbar: undefined
+  
+}</script><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="无名" type="application/atom+xml">
+</head><body><canvas class="fireworks"></canvas><div id="header"> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">无名</a></span><i class="fa fa-bars fa-fw toggle-menu pull_right close" aria-hidden="true"></i><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-book"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/book"><i class="fa-fw fa fa-sticky-note"></i><span> 笔记</span></a></div></div></span><span class="pull_right" id="search_button"></span></div></div><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="lazyload avatar_img" src="/img/avatar_tj.png" onerror="onerror=null;src='/img/friend_404.gif'"></div><div class="mobile_post_data"><div class="mobile_data_item is_center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">21</div></a></div></div><div class="mobile_data_item is_center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">7</div></a></div></div><div class="mobile_data_item is_center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">Categories</div><div class="length_num">3</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-book"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/book"><i class="fa-fw fa fa-sticky-note"></i><span> 笔记</span></a></div></div></div><div id="mobile-sidebar-toc"><div class="toc_mobile_headline">Catalog</div><ol class="toc_mobile_items"><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#感悟"><span class="toc_mobile_items-number">1.</span> <span class="toc_mobile_items-text">感悟</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#随记"><span class="toc_mobile_items-number">2.</span> <span class="toc_mobile_items-text">随记</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-1"><a class="toc_mobile_items-link" href="#原文"><span class="toc_mobile_items-number">3.</span> <span class="toc_mobile_items-text">原文</span></a><ol class="toc_mobile_items-child"><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第一章"><span class="toc_mobile_items-number">3.1.</span> <span class="toc_mobile_items-text">第一章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第二章"><span class="toc_mobile_items-number">3.2.</span> <span class="toc_mobile_items-text">第二章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第三章"><span class="toc_mobile_items-number">3.3.</span> <span class="toc_mobile_items-text">第三章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第四章"><span class="toc_mobile_items-number">3.4.</span> <span class="toc_mobile_items-text">第四章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第五章"><span class="toc_mobile_items-number">3.5.</span> <span class="toc_mobile_items-text">第五章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第六章"><span class="toc_mobile_items-number">3.6.</span> <span class="toc_mobile_items-text">第六章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第七章"><span class="toc_mobile_items-number">3.7.</span> <span class="toc_mobile_items-text">第七章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第八章"><span class="toc_mobile_items-number">3.8.</span> <span class="toc_mobile_items-text">第八章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第九章"><span class="toc_mobile_items-number">3.9.</span> <span class="toc_mobile_items-text">第九章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第十章-修身之法"><span class="toc_mobile_items-number">3.10.</span> <span class="toc_mobile_items-text">第十章 修身之法</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第十一章"><span class="toc_mobile_items-number">3.11.</span> <span class="toc_mobile_items-text">第十一章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第十二章"><span class="toc_mobile_items-number">3.12.</span> <span class="toc_mobile_items-text">第十二章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第十二章-宠辱若惊"><span class="toc_mobile_items-number">3.13.</span> <span class="toc_mobile_items-text">第十二章 宠辱若惊</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第十三章"><span class="toc_mobile_items-number">3.14.</span> <span class="toc_mobile_items-text">第十三章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第二十章"><span class="toc_mobile_items-number">3.15.</span> <span class="toc_mobile_items-text">第二十章</span></a></li><li class="toc_mobile_items-item toc_mobile_items-level-2"><a class="toc_mobile_items-link" href="#第三十六章"><span class="toc_mobile_items-number">3.16.</span> <span class="toc_mobile_items-text">第三十六章</span></a></li></ol></li></ol></div></div><div id="body-wrap"><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true">     </i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#感悟"><span class="toc-number">1.</span> <span class="toc-text">感悟</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#随记"><span class="toc-number">2.</span> <span class="toc-text">随记</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#原文"><span class="toc-number">3.</span> <span class="toc-text">原文</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#第一章"><span class="toc-number">3.1.</span> <span class="toc-text">第一章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二章"><span class="toc-number">3.2.</span> <span class="toc-text">第二章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第三章"><span class="toc-number">3.3.</span> <span class="toc-text">第三章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第四章"><span class="toc-number">3.4.</span> <span class="toc-text">第四章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第五章"><span class="toc-number">3.5.</span> <span class="toc-text">第五章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第六章"><span class="toc-number">3.6.</span> <span class="toc-text">第六章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第七章"><span class="toc-number">3.7.</span> <span class="toc-text">第七章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第八章"><span class="toc-number">3.8.</span> <span class="toc-text">第八章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第九章"><span class="toc-number">3.9.</span> <span class="toc-text">第九章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第十章-修身之法"><span class="toc-number">3.10.</span> <span class="toc-text">第十章 修身之法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第十一章"><span class="toc-number">3.11.</span> <span class="toc-text">第十一章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第十二章"><span class="toc-number">3.12.</span> <span class="toc-text">第十二章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第十二章-宠辱若惊"><span class="toc-number">3.13.</span> <span class="toc-text">第十二章 宠辱若惊</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第十三章"><span class="toc-number">3.14.</span> <span class="toc-text">第十三章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第二十章"><span class="toc-number">3.15.</span> <span class="toc-text">第二十章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#第三十六章"><span class="toc-number">3.16.</span> <span class="toc-text">第三十六章</span></a></li></ol></li></ol></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://images.pexels.com/photos/1586205/pexels-photo-1586205.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=250)"><div id="post-info"><div id="post-title"><div class="posttitle">老子笔记</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> Created 2020-05-13<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> Updated 2021-04-09</time><span class="post-meta__separator mobile_hidden">|</span><span class="mobile_hidden"><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a></span><div class="post-meta-wordcount"><i class="fa fa-eye post-meta__icon" aria-hidden="true">       </i><span>Post View: </span><span id="busuanzi_value_page_pv"></span></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><h1 id="感悟"><a href="#感悟" class="headerlink" title="感悟"></a>感悟</h1><p>不以物累其真，不以欲害其神</p>
+<p><strong>将欲翕之，必古张之。将欲弱之，必古强之。将欲去之，必古与之。将欲夺之，必古予之。是谓微明。</strong></p>
+<blockquote>
+<p>将要收敛的，必定是本来过于张扬的；将要削弱的，必定是本来过于强盛的；将要离去的必定是本来相与的；将要剥夺的，必定是本来太多给予的；这就叫做“微明”（隐而不现之睿智）。侯王对于民众所抱有的态度应当是柔弱，这一态度胜过刚强，（因为侯王和民众就如鱼和水的关系，）鱼儿离不开水（侯王对民众强势了，势必造成民众的背离如此，侯王的强势最终会导致众叛亲离这一侯王最终孤弱无助的结果）。国家的强势工具不是用来对付民众的。</p>
+</blockquote>
+<p>宠辱若惊贵大患若身.</p>
+<blockquote>
+<p>宠辱若惊, 未得患得, 得而患失. 宠为下. 受宠后给予了尊贵的地位你就不得不维护自己的地位就像爱护自己的身体去效忠别人. 无贵则无患. 故曰贵大患若身.<br>不以任何人宠你就为其卖命效忠, 君子当爱惜自己的身体, 托身以天下. 而不效忠卖命与某个宠你的人.</p>
+</blockquote>
+<p>故有之以为利、无之以为用。</p>
+<blockquote>
+<p>而人皆知人有用，而不知用在虚灵无相之心。是知有虽有用，而实用在无也。然无不能自用，须赖有以济之。要即有以观无。</p>
+</blockquote>
+<p>祸兮福之所倚    福兮祸之所伏    孰知其极    其无正也    正复为奇    善复为妖    人之谜    其日固久    是以<strong>圣人方而不割    廉而不刿    直而不肆    光而不耀</strong></p>
+<blockquote>
+<p>世间福祸正邪哪有什么标准,都是一时的, 正变为邪, 善变成恶, 人们都被表面的正邪,福祸迷失了, 因而圣人做事有原则,但不会伤害人, 清廉清净但不威胁他人,  诚信坦直但不会出口伤人, 不用自己的功名去刺激别人.</p>
+</blockquote>
+<p>知和曰常    知常曰明    益生曰祥    心使气曰强    物壮则老    是谓不道    不道早已</p>
+<blockquote>
+<p>和谐才是常道, 了解这个道理才算明白.  太懒了不好, 太好强了也不好, 都不长久. 耗费元气不好 不符合天道早死.</p>
+</blockquote>
+<p>修之于身    其德乃真    修之于家    其德乃馀    修之于乡    其德乃长    修之于国    其德乃丰    修之于天下    其德乃普    故以身观身    以家观家    以乡观乡    以邦观邦    以天下观天下    </p>
+<blockquote>
+<p>修道于自身, 品德就会率真, 修道于家庭, 家庭会充满和谐 … 如何检验修道的效果,  看自己的德行是否真诚, 问心无愧. 自己的家庭是否和谐 …  (修身齐家治国平天下)</p>
+</blockquote>
+<p>为学日益    为道日损    损之又损    以至于无为    <strong>无为而无不为</strong>    取天下常以无事    及其有事    不足以取天下</p>
+<blockquote>
+<p>学习能增加知识才能, 学道要让所学的知识能力用在正道, 损掉学到不好的部分.  何为无为而无不为, 如果做什么事都能顺应其规律, 不违天道, 那么就没什么做不成的了.(从心所欲不逾矩 - 孔子)  大位天定, 不以智取.</p>
+</blockquote>
+<p>名 与 身 孰 亲 。 身 与 货 孰 多 。 得 与 亡 孰 病 。甚 爱 必 大 费 ﹔ 多 藏 必 厚 亡 。故 知 足 不 辱 ， 知 止 不 殆 ， 可 以 长 久 。</p>
+<blockquote>
+<p>名利得失有生命重要吗, 爱甚贪多,必然损耗自己的精力且得不偿失, 因此知足就好, 知道适可而止. 这样就可以长久一点.</p>
+</blockquote>
+<p>明 道 若 昧 ﹔进 道 若 退 ﹔夷 道 若 颣 ﹔上 德 若 谷 ﹔广 德 若 不 足 ﹔建 德 若 偷 ﹔质 真 若 渝 ﹔大 白 若 辱 ﹔大 方 无 隅 ﹔大 器 晚 成 ﹔大 音 希 声 ﹔大 象 无 形 ﹔<strong>道 隐 无 名</strong> 。夫 唯 道 ， 善 贷 且 成 。</p>
+<blockquote>
+<p>修道建德偷偷的做就行了, 不要强行卖弄.</p>
+</blockquote>
+<p><strong>道 生 一 ， 一 生 二 ， 二 生 三 ， 三 生 万 物 。万 物 负 阴 而 抱 阳 ， 冲 气 以 为 和</strong> 。故 物 或 损 之 而 益 ， 或 益 之 而 损 。人 之 所 教 ， 我 亦 教 之 。强 梁 者 不 得 其 死 ， 吾 将 以 为 教 父 。</p>
+<blockquote>
+<p>一生二, 阴和阳, 阴阳相冲, 形成万物, 万物背阴向阳, 虚冲调和形成一种适匀的状态.  万事万物都有阴阳调和, 损益互补, 强暴的人不得好死.</p>
+</blockquote>
+<p>上德不德    是以有德    下德不失德    是以无德    上德无为而无以为    下德无为而有以为    上仁为之而无以为    上义为之而有以为    上礼为之而莫之应    则攘臂而扔之    失德而后仁    失仁而后义    失义而后礼    夫礼者    忠信之薄    而乱之首    </p>
+<blockquote>
+<p>上德和下德. 如果德是做给别人看的,有功利心, 这就是无德.  仁义礼代表各自的境界, 最高境界是德.</p>
+</blockquote>
+<p>知者不言    言者不知    <strong>塞其兑    闭其门    挫其锐    解其纷    和其光    同其尘    是谓玄同</strong>    不可得而亲    不可得而疏    不可得而利    不可得而害    不可得而贵    不可得而贱</p>
+<blockquote>
+<p>不让外界的干扰自己内心的宁静, 不露锋芒, 心思专一, 共于世事.  树立玄同观,看待万事万物不让亲疏 利害 贵贱而左右自己的想法.</p>
+</blockquote>
+<p>道生之    德畜之    物形之    势成之    是以万物莫不尊道而贵德    道之尊    德之贵    夫莫之命而常自然    故道生之    德畜之    长之育之    成之熟之    养之覆之    <strong>生而不有，为而不恃，长而不宰，是谓玄德</strong></p>
+<blockquote>
+<p>玄德: 不主宰时间万物,功成不居. 一切那么自然.做了好像没有做一样.</p>
+</blockquote>
+<p>名与身孰亲    身与货孰多    得与亡孰病    甚爱必大费    多藏必厚亡    知足不辱    知止不殆    可以长久</p>
+<blockquote>
+<p>声名财富比生命还重要吗,  过分的追逐名利势必要付出非常大的代价, 且受他人惦记. 要懂得知足和适可而止, 这样才能长久呀</p>
+</blockquote>
+<p>企者不立    跨者不行    自见者不明    自伐者无功    自矜者不长    其在道也    曰余食赘行    物或恶之    故有道者不处</p>
+<blockquote>
+<p>踮起脚跟想要站得高，反而站立不住；迈起大步想要前进得快，反而不能远行。自逞已见得不到彰明；自以为是得不到显昭；自我炫耀建立不起功勋；自高自大不能做众人之长。</p>
+<p>从道的角度看，以上这些急躁炫耀的行为，只能说是剩饭赘肉。因为它们是令人厌恶的东西，所以有道的人决不这样做。</p>
+</blockquote>
+<p>曲则全    枉则直    洼则盈    敝则新    少则得    多则惑    是以圣人抱一为天下式    不自见故明    不自是故彰    不自伐故有功    不自矜故长    夫唯不争    故天下莫能与之争    古之所谓”曲则全”者，岂虚言哉    诚全而归之。</p>
+<blockquote>
+<p>不自持己见,反而才能明见. 不自以为是，道理才能明了；不自己夸赞膨胀,才能做好事情；不一意孤行,孤芳自赏,才能成长。正因为不与人争，所以遍天下没有人能与他争</p>
+</blockquote>
+<p>希言自然    故飘风不终朝    骤雨不终日    孰为此者    天地    天地尚不能久    而况于人乎    故从事于道者同于道    德者同于德    失者同于失    同于道者道亦乐得之    同于德者德亦乐得之    同于失者失亦乐得之    信不足焉    有不信焉</p>
+<blockquote>
+<p>靠言语和命令来指导管理又岂能长久,  天地尚且不能骤雨终日, 飘风终朝. 更何况人呢. 因此道者用道, 德者用德, 要么不管, 如果自己没有信用, 别人又怎么能信你.</p>
+</blockquote>
+<h1 id="随记"><a href="#随记" class="headerlink" title="随记"></a>随记</h1><p>守静    守柔    守弱</p>
+<p><strong>无为</strong></p>
+<p>什么是无为, 先要理解什么是”无”</p>
+<p>道德经讲到:</p>
+<blockquote>
+<p>无名天地之始, 有名万物之母<br>道生一, 一生二, 二生三,三生万物, 万物负阴而抱阳,冲气以为和.</p>
+</blockquote>
+<p>无能生有.</p>
+<p>举例: 养一盆花, 需要给花浇水花儿才能成活, 花长得好是因为水的作用, 我们只不过是顺应花的规律给他浇水而已, 这种行为可称之为无为. <strong>无为即是做事情顺其规律而为, 不要妄为.</strong> 养花需要给花浇水施肥, 当然如果不懂养花, 一通乱搞, 把花弄死了, 那这就是妄为了.</p>
+<p>怎么才能不妄为呢? 老子又说了:</p>
+<blockquote>
+<p>常无欲以观其妙 常有欲以观其徼</p>
+</blockquote>
+<p>要从两个方面观察总结, 1. 现象 2. 本质. 通过现象抓住其本质.</p>
+<p>当你观察透了,明白了, 那么你就可以</p>
+<blockquote>
+<p>无为而无不为</p>
+</blockquote>
+<p>意思就是你能按事物本身的规律做事, 那就没有做不成的.</p>
+<p>事情做成了,也不要骄傲居功, 因为老子讲到:</p>
+<blockquote>
+<p>万物作焉而不辞, 生而不有, 为而不恃, 功成而不居. 夫唯弗居, 是以不去.</p>
+</blockquote>
+<p>老子是地地道道的唯物主义者, 至于后世流传的道家的神神鬼鬼的东西, 并非老子的本意.</p>
+<hr>
+<p>不居死地.</p>
+<blockquote>
+<p>不要作死. </p>
+</blockquote>
+<p>无为而无不为</p>
+<blockquote>
+<p>想把一件事办好，就要符合这件事的规律。</p>
+</blockquote>
+<p>唯与之阿    相去几何    美与之恶    相去若何    人之所畏    不可不畏    荒兮    其未央哉</p>
+<p>清静为天下正</p>
+<p>修道不要急着成为完人, 这样终身都有乐趣, 不要急, 慢慢来 .</p>
+<p>无为故无败    无执故无失</p>
+<blockquote>
+<p>不败 和 胜不一样</p>
+</blockquote>
+<p>杜外而养中</p>
+<blockquote>
+<p>外: 目 口 耳     中: 精 气 神</p>
+</blockquote>
+<h1 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h1><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><p>道可道, 非常道. 名可名, 非常名.</p>
+<p>无名天地之始, 有名万物之源.</p>
+<p>故常无欲, 以观其妙. 常有欲, 以观其徼.</p>
+<p>此两者同出而异名, 同谓之玄, 玄之又玄, 众妙之门.</p>
+<blockquote>
+<p>解一: </p>
+<p>道以及产生的各种名称, 只是为了说明”道”, 但这些名有很大的局限性, 我们不要受它的影响.</p>
+<p>无是天地宇宙本始, 有是我们能观到其中的部分,  有无不对立, 是相通的, 只是从道里面出来之后,名称不一样了,无和有只是一个名称(名可名,非常名), 正应如此, 它是很玄妙的, 但也并不因此而无法探索. 有无,是窥察道的一道门. </p>
+<p>解二: 2020年6月12日 11:12:46</p>
+<p>道其真身,其体至虚,无相无名, 不可言说. 今既强名之为道, 皆假名矣.  无名无相之道体, 天地皆从此变化而出, 全成有相有名之天地, 故为天地之始. 万物从天地阴阳造化而成.    所谓 道生一 一生二 二生三 三生万物.故为万物之母. 虚无的道体, 全成了有名之万物, 正所谓一物一太极, 老子要人常观物体道之玄妙. </p>
+<p>解三: 2020年6月28日 17:30:22</p>
+<p>第一章讲道是什么,  大千世界充满了奥妙,  老子把万物的能被看到的现象称之为有, 万物背后运行的自然规律称之为无, 有和无构成了这个世界.  老子告诫我们要常通过观察的现象, 了解其背后的规律.  有和无共同形成了这个世界, 我们给之起个名字就叫做道.  道只是一个名字而已. 因为名可名非常名. </p>
+<p>总结: 道即万物, 万物为道.</p>
+</blockquote>
+<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><p>天下皆知美之为美, 斯恶已; 皆知善之为善, 斯不善已. </p>
+<p>有无相生,  难易相成, 长短相形, 高下相倾, 音声相和, 前后相随, 恒也.</p>
+<p>是以圣人处无为之事, 行不言之教. </p>
+<p>万物作焉而不辞, 生而不有, 为而不恃, 功成而不居. 夫唯弗居, 是以不去.</p>
+<blockquote>
+<p>世上对美有了统一的标准, 人们就会讨厌丑. 善有了固定的标准, 也是不好的. 万事万物之间相辅相成, 不是对立的.</p>
+<p>圣人做事, 不违反自然规律, 言教不如身教. 万物产生发展, 创生而不占有, 不依能, 不居功. 只有不居功, 功劳才能不朽.</p>
+<p>注: 圣人: 指得道之人.</p>
+<p>解二: 2020年6月28日 17:35:53</p>
+<p>第二章讲为什么名可名非常名.  万物都顺应自己的本性来生长和发展, 树冠和树根一个在天上,一个在地下, 各自都有各自不同的作用.  动物头向前,屁股向后才能运动, 人非要根据自己的喜好来分美丑和善恶. </p>
+<p>因此圣人顺应事物的本性和规律行事, 不用言语教化百姓什么是美丑善恶,(老子的意思是去掉美丑善恶之名, 并不是去掉美丑善恶). 而是通过行为让百姓自己感知到美丑善恶.  既然万物都是顺其自然本性而发展,你有怎么敢说都是你的功劳呢. 你协助了万物更好的顺其本性发展, 你不用居功, 万物自然会记得你.  </p>
+<p>总结: 虚名务实</p>
+</blockquote>
+<h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><p>不尚贤, 使民不争,不贵难得之货,使民不盗,不见可欲, 使民心不乱.</p>
+<p>是以圣人之治, 虚其心,实其腹 弱其志 强其骨 。</p>
+<p>常使民无知无欲 。</p>
+<p>使夫智者不敢为也 。</p>
+<p>为无为，则无不治 。</p>
+<blockquote>
+<p>不标榜功名,  使人不来争抢, 不囤货居奇, 使人不来偷盗, 不奢侈淫乱, 不使人心生妒忌羡慕.</p>
+<p>圣人使人们以减少心中的贪念,不要有成见 吃饱饭满足人的基本需求, 降低争强好胜的意志, 强健其体魄.</p>
+<p>使人不妒忌羡慕 (攀比),心中没有贪欲.</p>
+<p>那些聪明有能力的人不敢去胡作非为.(因为贪念而去做违反天道的事情)</p>
+<p>做到以上这些, 则天下就安稳了.</p>
+<p>解二: 2020年6月28日 17:51:37</p>
+<p>第三章讲: 虚名的好处?  一个人写了篇好文章, 大家觉的不错,鼓鼓掌这就行了, 如果偏偏给加上一个什么文坛圣手, 自然会引起许多人的不服, 都来争抢, 不喜欢写文章的人也来凑热闹. 你说安这个虚名干什么,    钻石本身只是一块石头, 人们根据冠以美名曰宝石.  自然人人都想抢夺偷盗. 朋友圈天天晒今天游巴黎,明天吃大餐, 被普通人看到了自然心生妒忌. 扰乱其心.  </p>
+<p>因此呢, 治理国家让人们肚子吃饱, 虚掉心中的假名. 这样人就会务实.  也会减少人们之间的争斗. 吃饱了没事练练身体. 这样的话, 假使有些好事之徒蛊惑人心去早饭, 百姓就会问, 为啥要造反呢, 为了名利吗, 虚名而已呀.  都能够顺应这些规律来治理国家, 天下就安稳了.</p>
+</blockquote>
+<p>名,利,欲,知. 社会四大乱源.</p>
+<h2 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h2><p>道冲 而用之或浮盈</p>
+<p>渊兮 似万物之宗</p>
+<p>挫其锐 解其纷</p>
+<p>合其光 同其尘</p>
+<p>吾不知谁之子 象帝之先</p>
+<blockquote>
+<p>道的本体是虚无的, 它的妙用用之不竭, 运化不息,永不盈满. 道很深奥, 好似万物的根源</p>
+<p>道它不威胁,利诱,恐吓,主宰你.存在于万物. (天生人,也杀人,此谓道)</p>
+<p>道是从哪里来的呢?  可能是万物之先就有了. </p>
+<p>解二: 2020年6月29日 09:03:44</p>
+<p>本章讲的是道的作用.道体虚无,但其作用是无穷的. 道非常的深远, 好似主宰着万物.   使其”挫其锐 解其纷 和其光 同其尘”, 和谐共存. </p>
+<p>道又生于何处呢, 老子说: 大概在世界形成之前就已经存在了. </p>
+<p>那我们如何看待道呢.</p>
+</blockquote>
+<h2 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h2><p>天地不仁以万物为刍狗, 圣人不仁,以百姓为刍狗.</p>
+<p>天地之间, 其犹橐龠乎? 虚而不屈, 动而愈出.</p>
+<p>多言数穷, 不如守中.</p>
+<blockquote>
+<p>天地万物自生自灭, 圣人做事也不会去让百姓去明白他, 在百姓眼里,好似不仁.</p>
+<p>天地之间, 好似个风箱, 看似空的, 却能产生风能. </p>
+<p>说话做事太极端, 就没有退路了,不如少私寡欲.</p>
+<p>解二:  2020年6月29日 11:23:19</p>
+<p>本章讲天地按照自然规律的运行, 没有偏爱, , 比如说就像农民种地, 养分充足就长得好, 不足就长得坏., 不会以种地人的颜值，肤色去决定作物的生长. 不分高低贵贱, 这就是天之道. 圣人对待百姓同样要公正,不偏爱. </p>
+<p>天地之间就像个风箱, 万物顺其道生长发展. 看似静谧和谐但其中蕴含了能量, 去扰动它就会迸发出能量, 知道重新进入另一种和谐.   </p>
+<p>如果行事破坏了万物间的和谐 , 不如保持中立无为. </p>
+</blockquote>
+<h2 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h2><p>谷神不死    是谓玄牝</p>
+<p>玄牝之门    是谓天地根</p>
+<p>绵绵若存    用之不勤</p>
+<blockquote>
+<p>万物孕育之门,是一切的根本, 世间万物通过绵延不绝的繁衍生息,才能做到天长地久</p>
+<p>解二: 2020年6月29日 16:01:16</p>
+<p>世间万物生生不息, 因为存在一个神奇的母性, 称之为玄牝,  滋养万物, 这一切都来自于道, 道的能量绵绵不息.</p>
+</blockquote>
+<h2 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h2><p>天长地久</p>
+<p>天地之所以能长且久者</p>
+<p>以其不自生    故能长生</p>
+<p>是以圣人后其身而身先    外其身而身存</p>
+<p>以其无私    故能成其私</p>
+<blockquote>
+<p>解一: 2020年6月12日 11:13:04</p>
+<p>天地能长久是因为其不自生, 圣人不怀私心去做人做事, 才得以流芳百世, 历史伟人, 毛主席, 屈原皆同于此道 .  </p>
+<p>世人各图一己之私, 以为长久计, 殊不知有我致私者, 皆不能长久.</p>
+</blockquote>
+<h2 id="第八章"><a href="#第八章" class="headerlink" title="第八章"></a>第八章</h2><p>上善若水</p>
+<p>水善利万物而不争    处众人之所恶    故几于道</p>
+<p>居善地    心善渊    与善仁    言善信    正善治    事善能    动善时</p>
+<p>夫唯不争    故无忧</p>
+<blockquote>
+<p>解一:</p>
+<p>水象征着良好的德行. 水滋养万物不与之争, 汇集在众人不喜欢的地方, 水这样的善最接近”道”. </p>
+<p><strong>不争则无怨</strong></p>
+<p>解二: 2020年6月12日 11:16:21</p>
+<p>谦虚不争之德最为上善.</p>
+<p>解三: 2020年6月30日 09:22:38</p>
+<p>水利万物且不与之相争. 近道. </p>
+<p>它有这些品性, 善于找准自己的位置, 善于持守内心的宁静, 待人真诚相爱, </p>
+<p>诚实守信, 治理有方, 处事善于发挥所长, 行动善于找准时机.</p>
+<p>做好自己,不与之争, 方能无忧.</p>
+</blockquote>
+<h2 id="第九章"><a href="#第九章" class="headerlink" title="第九章"></a>第九章</h2><p>持而盈之    不如其已</p>
+<p>持而锐之    不可长保</p>
+<p>金玉满堂    莫能守之</p>
+<p>富贵而骄    自遗其咎</p>
+<p>功遂身退    天之道也</p>
+<blockquote>
+<p>满招损, 锋芒毕露, 就有人来修理你.</p>
+<p>金玉多就难以守的住. 骄傲自大则会招来祸患.</p>
+<p>做出了功劳却不贪恋功劳  才符合天道</p>
+<p>解二: 2020年6月12日 11:19:17</p>
+<p>诫知进不知退</p>
+</blockquote>
+<h2 id="第十章-修身之法"><a href="#第十章-修身之法" class="headerlink" title="第十章 修身之法"></a>第十章 修身之法</h2><p>营魄抱一    能无离乎</p>
+<p>专气致柔    能如婴儿乎</p>
+<p>涤除玄览    能无疵乎</p>
+<p>爱民治国    能无为乎</p>
+<p>天门开阖    能为雌乎</p>
+<p>明白四达    能无知乎</p>
+<p>生而畜之    生而不有    为而不恃    长儿不宰    是谓玄德</p>
+<blockquote>
+<p>身心合一, 柔和不争, 如婴儿一样.</p>
+<p>洁净身心, 自身的作为哪里还有瑕疵吗.</p>
+<p>为国家效力,当上公务员, 能否处无为之事, 不干扰老百姓.</p>
+<p>外界的影响下, 是否还能够守静,守柔, 守弱.</p>
+<p>内心清明而四通八达, 都能了解掌握吗.</p>
+<p>顺延万物的规律让其生长, 不占有, 不显耀才能, 让其成长而不去主宰它, 这样才称为玄德(不标榜自己的德行).</p>
+</blockquote>
+<h2 id="第十一章"><a href="#第十一章" class="headerlink" title="第十一章"></a>第十一章</h2><p>三十辐    共一毂    当其无    有车之用</p>
+<p>埏埴以为器    当其无    有器之用</p>
+<p>凿户牖以为室    当其无    有室之用</p>
+<p>故有之以为利    无之以为用</p>
+<blockquote>
+<p>有的部分我们带来了便利, 无的部分以为用, 这里再次解释了有无的概念.是以聖人常無以觀其妙，常有以觀其徹</p>
+<p>有之所以为利，皆赖无以为用也。</p>
+</blockquote>
+<h2 id="第十二章"><a href="#第十二章" class="headerlink" title="第十二章"></a>第十二章</h2><p>五色令人目盲    五音令人耳聋    五味令人口爽    </p>
+<p>驰骋畋猎，令人心发狂；难得之货，令人行妨；</p>
+<p>是以圣人为腹不为目，故去彼取此。</p>
+<blockquote>
+<p>为腹者，以物养己。为目者，以物役己。故圣人不为目也。</p>
+</blockquote>
+<h2 id="第十二章-宠辱若惊"><a href="#第十二章-宠辱若惊" class="headerlink" title="第十二章 宠辱若惊"></a>第十二章 宠辱若惊</h2><p>宠辱若惊    贵大患若身</p>
+<p>何谓宠辱若惊    宠为下    得之若惊    失之若惊    是谓宠辱若惊</p>
+<p>何谓贵大患若身    吾所以有大患者    为吾有身    及吴无身    吾有何患</p>
+<p>故贵以身于为天下    爱以身为天下    若可托天下</p>
+<blockquote>
+<p>宠辱都会引起我们不安. 为什么会不安呢, 我们把宠辱看的比我们自身一样重要</p>
+<p>因为身体的存在,所以我们才会受到影响, 但没有身体,我们什么又做不了, 因此, 我们要爱惜身体, 为天下做点好事.</p>
+<p>解二:  2020年6月17日 14:15:18</p>
+<p>宠辱若惊, 未得患得, 得而患失. 宠为下. 受宠后给予了尊贵的地位你就不得不维护自己的地位就像爱护自己的身体去效忠别人. 无贵则无患. 故曰贵大患若身.<br>不以任何人宠你就为其卖命效忠, 君子当爱惜自己的身体, 托身以天下. 而不效忠卖命与某个宠你的人.</p>
+</blockquote>
+<h2 id="第十三章"><a href="#第十三章" class="headerlink" title="第十三章"></a>第十三章</h2><p>视而不见，名曰夷；听之不闻，名曰希；搏之不得，名曰微。</p>
+<p>此三者不可致诘，故混而为一。</p>
+<p>其上不徼，其下不昧，绳绳兮不可名，复归于无物。是谓无状之状，无物之象，是谓惚恍。</p>
+<p>迎之不见其首，随之不见其后。执古之道，以御今之有。能知古始，是谓道纪。</p>
+<blockquote>
+<p>道 看不到 听不着 摸不见, 无头无绪</p>
+<p>道留下的东西是可以参考的</p>
+</blockquote>
+<h2 id="第二十章"><a href="#第二十章" class="headerlink" title="第二十章"></a>第二十章</h2><p>绝学、无忧。唯之与阿、相去几何。善之与恶、相去何若。人之所畏、不可不畏。荒兮、其未央哉。众人熙熙、如享太牢、如登春台。我独泊兮其未兆、如婴儿之未孩。乘乘兮、若无所归。众人皆有余。而我独若遗。我愚人之心也哉。沌沌兮。俗人昭昭。我独昏昏。俗人察察。我独闷闷。澹兮其若海。飂兮似无所止。众人皆有以。我独顽且鄙。我独异于人。而贵求食于母。</p>
+<blockquote>
+<p>我独泊兮其未兆 : 而我对这些一点念头都没有呀.</p>
+<p>我愚人之心也哉 : 絕愚之人，心無所別析，意無所美惡，猶然其情不可睹，我頹然若此也。</p>
+</blockquote>
+<h2 id="第三十六章"><a href="#第三十六章" class="headerlink" title="第三十六章"></a>第三十六章</h2><p><strong>将欲翕之，必古张之。将欲弱之，必古强之。将欲去之，必古与之。将欲夺之，必古予之。是谓微明。</strong></p>
+<p>将要收敛的，必定是本来过于张扬的；将要削弱的，必定是本来过于强盛的；将要离去的必定是本来相与的；将要剥夺的，必定是本来太多给予的；这就叫做“微明”（隐而不现之睿智）。侯王对于民众所抱有的态度应当是柔弱，这一态度胜过刚强，（因为侯王和民众就如鱼和水的关系，）鱼儿离不开水（侯王对民众强势了，势必造成民众的背离如此，侯王的强势最终会导致众叛亲离这一侯王最终孤弱无助的结果）。国家的强势工具不是用来对付民众的。</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">杨斌</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://yangb92.github.io/2020/05/13/lz/">https://yangb92.github.io/2020/05/13/lz/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AF%BB%E4%B9%A6/">读书    </a><a class="post-meta__tags" href="/tags/%E9%81%93%E5%BE%B7%E7%BB%8F/">道德经    </a></div><div class="post_share"><div class="social-share" data-image="https://images.pexels.com/photos/1586205/pexels-photo-1586205.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=250" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button"><i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/wechat.png"><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="lazyload post-qr-code__img" src="/img/alipay.png"><div class="post-qr-code__desc">支付宝</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/2020/06/11/lz-hs/"><img class="prev_cover lazyload" data-src="https://images.pexels.com/photos/1586205/pexels-photo-1586205.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=250" onerror="onerror=null;src='/img/404.jpg'"><div class="label">Previous Post</div><div class="prev_info"><span>老子解-憨山大师</span></div></a></div><div class="next-post pull_right"><a href="/2020/04/27/zhhw/"><img class="next_cover lazyload" data-src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=100&amp;w=200" onerror="onerror=null;src='/img/404.jpg'"><div class="label">Next Post</div><div class="next_info"><span>知乎好句摘录</span></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> Recommend</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2020/07/15/whzz/" title="乌合之众"><img class="relatedPosts_cover lazyload"data-src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=3&h=100&w=200"><div class="relatedPosts_title">乌合之众</div></a></div><div class="relatedPosts_item"><a href="/2020/04/27/zhhw/" title="知乎好句摘录"><img class="relatedPosts_cover lazyload"data-src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=3&h=100&w=200"><div class="relatedPosts_title">知乎好句摘录</div></a></div><div class="relatedPosts_item"><a href="/2020/03/24/yxl/" title="《影响力》笔记"><img class="relatedPosts_cover lazyload"data-src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=3&h=100&w=200"><div class="relatedPosts_title">《影响力》笔记</div></a></div><div class="relatedPosts_item"><a href="/2020/03/10/hwzl/" title="好文摘录"><img class="relatedPosts_cover lazyload"data-src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=3&h=100&w=200"><div class="relatedPosts_title">好文摘录</div></a></div><div class="relatedPosts_item"><a href="/2020/04/01/fblgt/" title="《非暴力沟通》笔记"><img class="relatedPosts_cover lazyload"data-src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg?auto=compress&cs=tinysrgb&dpr=3&h=100&w=200"><div class="relatedPosts_title">《非暴力沟通》笔记</div></a></div><div class="relatedPosts_item"><a href="/2020/08/07/lz-wb/" title="老子注-王弼"><img class="relatedPosts_cover lazyload"data-src="https://images.pexels.com/photos/1586205/pexels-photo-1586205.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=250"><div class="relatedPosts_title">老子注-王弼</div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> Comment</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = true == true ? true : false;
+var verify = false == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'P7c0BWIVnekFBWhCbaifQK1J-9Nh9j0Va',
+  appKey:'gQLQv3CFcO1M1R83oDDDVIlV',
+  placeholder:'欢迎留言交流',
+  avatar:'monsterid',
+  guest_info:guest_info,
+  pageSize:'10',
+  lang:'zh-cn',
+  recordIP: true
+});</script></div></div></div><footer id="footer" style="background-image: url(https://images.pexels.com/photos/1586205/pexels-photo-1586205.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=250)"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2021 By 杨斌</div><div class="framework-info"><span>Driven </span><a href="http://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div><div class="footer_custom_text">Hi, welcome to my <a href="http://yangb.cf/" target="_blank" rel="noopener">blog</a>!</div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="Read Mode"></i><i class="fa fa-plus" id="font_plus" title="Increase font size"></i><i class="fa fa-minus" id="font_minus" title="Decrease font size"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="Traditional Chinese and Simplified Chinese Conversion" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="Dark Mode"></i></div><div id="rightside-config-show"><div id="rightside_config" title="Setting"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="Scroll to comment"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="Table of Contents" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="Back to top" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script id="ribbon_piao" mobile="false" src="/js/third-party/piao.js"></script><script src="/js/baidupush.js"> </script><script src="/js/third-party/activate-power-mode.js"></script><script>POWERMODE.colorful = true; // make power mode colorful
+POWERMODE.shake = true; // turn off shake
+document.body.addEventListener('input', POWERMODE);
+</script><script src="/js/tw_cn.js"></script><script>translateInitilization()
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async=""></script></body></html>
