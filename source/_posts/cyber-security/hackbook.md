@@ -16,3 +16,5 @@ id: hackbook
 漏洞利用合计: <https://github.com/mai-lang-chai/Middleware-Vulnerability-detection>
 
 操作系统漏洞：<https://github.com/mai-lang-chai/System-Vulnerability>
+
+漏洞库：http://wiki.peiqi.tech/  GIT：https://github.com/PeiQi0/PeiQi-WIKI-POC
