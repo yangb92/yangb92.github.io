@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>无名</title>
+  <title>青云志</title>
   
-  <subtitle>隐</subtitle>
+  <subtitle>知行合一</subtitle>
   <link href="https://yangb92.github.io/atom.xml" rel="self"/>
   
   <link href="https://yangb92.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://yangb92.github.io/</id>
   
   <author>
-    <name>杨斌</name>
+    <name>斌</name>
     
   </author>
   
